@@ -283,6 +283,7 @@ hr {
 }
 
 .post {
+    display: none;
   padding: 8px 12px;
 }
 .left-sidebar .filter {
@@ -521,6 +522,9 @@ hr {
   .post-group {
     display: none;
   }
+  .post {
+    display: block;
+}
 
   .loginform {
     width: 350px;
@@ -539,7 +543,7 @@ hr {
     display: none;
   }
   .left-sidebar {
-    width: 415px;
+    width: 400px;
   }
 
   .right-sidebar {
