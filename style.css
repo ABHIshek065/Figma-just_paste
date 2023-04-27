@@ -110,6 +110,7 @@ nav {
 .form-content {
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 .loginform .login-para {
   background-color: #ecfff5;
@@ -124,12 +125,14 @@ nav {
   padding: 22px;
 }
 .input {
-  padding: 12px 8px;
+  padding: 12px 12px;
   box-sizing: border-box;
   background-color: rgb(242, 242, 242);
   outline: none;
   border: 1px solid lightgray;
 }
+
+
 .form .type {
   width: 100%;
 }
@@ -532,7 +535,10 @@ hr {
   }
 
   .input {
-    padding: 12px 0px;
+    padding: 12px 0;
+  }
+  .input::placeholder{
+    padding: 0 12px;
   }
   .form-content {
     flex-direction: column;
